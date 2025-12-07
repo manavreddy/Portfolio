@@ -6,22 +6,23 @@
 <title>Manav Reddy V | Portfolio</title>
 <style>
     * { margin:0; padding:0; box-sizing:border-box; }
-    body { font-family: Arial, sans-serif; background:#eef1f5; color:#333; }
+    body { font-family: Arial, sans-serif; background:#eef1f5; color:#333; line-height:1.6; }
     header { background:#1a1a1a; color:#fff; padding:70px 20px; text-align:center; }
     header h1 { font-size:2.5rem; margin-bottom:10px; }
     header p { font-size:1.1rem; opacity:0.85; }
-    
-    section { max-width:900px; margin:40px auto; background:#fff; padding:40px; border-radius:12px; box-shadow:0 0 12px rgba(0,0,0,0.08); }
-    section h2 { margin-bottom:15px; font-size:1.8rem; }
-    section p, ul { font-size:1.05rem; line-height:1.6; }
-    
-    ul { padding-left:20px; }
-    li { margin-bottom:10px; }
 
-    footer { background:#1a1a1a; color:#fff; text-align:center; padding:20px; margin-top:50px; }
+    section { max-width:900px; margin:40px auto; background:#fff; padding:40px; border-radius:12px; 
+    box-shadow:0 0 12px rgba(0,0,0,0.08); }
+    section h2 { margin-bottom:15px; font-size:1.8rem; font-weight:bold; }
+    ul { padding-left:20px; }
+
+    .resume a { display:inline-block; padding:10px 18px; background:#111; color:#fff; text-decoration:none;
+    border-radius:6px; font-size:1rem; margin-top:10px; }
+    .resume a:hover { background:#333; }
+
+    footer { background:#111; color:#fff; text-align:center; padding:20px; margin-top:50px; }
     footer a { color:#4da3ff; text-decoration:none; font-weight:bold; }
 
-    /* Responsive */
     @media(max-width:600px){
         header h1{ font-size:2rem; }
         section{ margin:20px; padding:25px; }
@@ -32,43 +33,47 @@
 
 <header>
     <h1>Manav Reddy V</h1>
-    <p>Statistics & Data Science | ML | Backend</p>
+    <p>Software | Machine Learning | Backend | Systems</p>
 </header>
 
 <section>
     <h2>About Me</h2>
-    <p>
-        I graduated from IIT Kanpur with a major in Statistics and Data Science.
-        I currently work at Axxela, where I explored trading but realised I'm more inclined 
-        towards building technology, solving data-driven problems and engineering systems.
-        I'm now building projects to strengthen my skills and transition into a tech-focused role.
-    </p>
+    <p>I graduated from IIT Kanpur with a major in Statistics and Data Science.
+    I currently work at Axxela, where I explored trading but realised I'm more aligned with
+    software engineering & machine learning. I’m building and deploying projects
+    to move toward engineering-heavy tech roles.</p>
 </section>
 
 <section>
     <h2>Skills</h2>
-    <ul>
-        <li>Languages: Python, Java, SQL</li>
-        <li>Machine Learning, Data Modelling, Time Series</li>
-        <li>APIs · Backend · System Design Fundamentals</li>
-        <li>Trading Products: Futures · Fixed Income</li>
-    </ul>
+
+    <h3>Languages</h3>
+    <p>C, C++, R, Python, SQL, Java, HTML</p>
+
+    <h3>Frameworks & Libraries</h3>
+    <p>Spring Boot, Spring Security, WebSocket, REST APIs, Docker, AWS (EC2, RDS, SNS),<br>
+    Numpy, Pandas, Scikit-learn, TensorFlow</p>
+
+    <h3>Tools & Technologies</h3>
+    <p>Git, GitHub, Maven, Postman, VS Code, Linux, MySQL</p>
 </section>
 
 <section>
     <h2>Projects</h2>
     <ul>
-        <li>
-            <b>Multi-Agent Borrower Assistance System</b> — Local LLM architecture using Ollama + 
-            FastAPI to guide distressed borrowers through structured debt-resolution.
-        </li>
-        <li>
-            <b>Fraud Detection Pipeline</b> — Data cleaning, feature engineering, imbalance handling, model evaluation.
-        </li>
-        <li>
-            <b>Microsoft Stock Time-Series Study</b> — Runs test, trend extraction, randomness verification.
-        </li>
+        <li><b>Multi-Agent Borrower Assistance System</b> — LLM-based platform for debt resolution using 
+        FastAPI + Ollama + Multi-Agent coordination.</li>
+
+        <li><b>Fraud Detection ML Pipeline</b> — feature engineering, imbalance handling, model evaluation & insights.</li>
     </ul>
+</section>
+
+<section class="resume">
+    <h2>Resume</h2>
+    <p>Click below to view/download my resume:</p>
+
+    <!-- ⬇ Replace link below once your PDF is uploaded -->
+    <a href="resume.pdf" target="_blank">Download Resume</a>
 </section>
 
 <footer>
